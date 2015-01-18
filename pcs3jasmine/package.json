@@ -1,0 +1,11 @@
+{
+  "name": "pcs3jasmine",
+  "version": "1.0.0",
+  "description": "my play exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "`npm bin`/jasmine"
+  },
+  "author": "mh",
+  "license": "ISC"
+}

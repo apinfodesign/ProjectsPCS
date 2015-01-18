@@ -1,0 +1,14 @@
+{
+  "name": "mh",
+  "version": "1.0.0",
+  "description": "nest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "`npm bin`/jasmine"
+  },
+  "author": "mh",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.1.1"
+  }
+}

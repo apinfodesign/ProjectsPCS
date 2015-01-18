@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang-"en">
+
+<head>
+	   <title>myhomepage early experiment </title>
+
+	   <style>
+	   		html{
+	   			    background: #FAFAFA;
+	   			    font-family: sans-serif;
+	   			    font-size: 14px;
+	   		}
+	   	</style>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+	<script>
+	name="nytimes";
+	url = "nytimes.com";
+	fontsize= 12;
+	fontcolor= "black";
+	bgcolor = "blue";
+	sortorder = "1";
+
+	var site = [name, url, fontsize, fontcolor, bgcolor, sortorder];
+	 
+    function appendTitle(newTitle){
+		document.title += newTitle;
+		};
+	var newTitle= "";	
+ //	console.log(newTitle); 
+
+    console.log(site.toString() );
+
+	</script
+ 
+
+</head>
+
+<body onload = "appendTitle( '...Loaded for real' )">
+
+<h1>My Home Page Version 0.2 </h1>
+<h2>Experiments in Arrays and Stuff</h2>
+<img src="http://upload.wikimedia.org/wikipedia/commons/3/3a/P-39N.jpg"> 
+
+
+
+
+
+</body>
+</html>
